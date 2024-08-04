@@ -5,31 +5,45 @@ This project focuses on enhancing dataset privacy by investigating how privacy p
 
 # Project Modules
 **Data Collection:**
+
 Datasets Used: Breast cancer, wine quality datasets.
+
 Purpose: To provide diverse datasets for robust analysis.
 
 **Data Preprocessing Implementation:**
+
 Steps: Cleaning, normalization, and handling missing values.
+
 Purpose: To prepare raw data for effective clustering.
 
 **Dimensionality Reduction:**
+
 Technique Used: Principal Component Analysis (PCA).
+
 Purpose: To reduce the number of features while retaining essential information, facilitating better clustering and enhancing privacy.
 
 **Clustering Implementation:**
+
 Algorithms Used: k-means, hierarchical, and spectral clustering.
+
 Purpose: To identify patterns and group similar data points in the datasets.
 
 **Privacy Preservation:**
+
 Technique Used: Differential Privacy.
+
 Purpose: To protect sensitive information by introducing noise into the data, ensuring individual privacy is maintained.
 
 **Clustering on Preserved Data:**
+
 Approach: Apply clustering algorithms to datasets modified by differential privacy.
+
 Purpose: To analyze how privacy-preserving modifications impact clustering outcomes.
 
 **Performance Evaluation:**
+
 Metrics Used: Silhouette score, Davies-Bouldin index, and Calinski-Harabasz index.
+
 Purpose: To assess the quality and scalability of clustering before and after applying privacy measures.
 
 # Results
